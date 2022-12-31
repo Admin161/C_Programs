@@ -1,0 +1,32 @@
+void main()
+{
+    int x=1189,y=841;
+    printf("A0-%dmmx%dmm",x,y);
+    y=y;
+    x=x/2;
+    printf("\nA1-%dmmx%dmm",y,x);
+    x=x;
+    y=y/2;
+    printf("\nA2-%dmmx%dmm",x,y);
+    y=y;
+    x=x/2;
+    printf("\nA3-%dmmx%dmm",y,x);
+    x=x;
+    y=y/2;
+    printf("\nA4-%dmmx%dmm",x,y);
+    y=y;
+    x=x/2;
+    printf("\nA5-%dmmx%dmm",y,x);
+    x=x;
+    y=y/2;
+    printf("\nA6-%dmmx%dmm",x,y);
+    y=y;
+    x=x/2;
+    printf("\nA7-%dmmx%dmm",y,x);
+    x=x;
+    y=y/2;
+    printf("\nA8-%dmmx%dmm",x,y);
+    y=y;
+    x=x/2;
+    printf("\nA9-%dmmx%dmm",y,x);
+}
